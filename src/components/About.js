@@ -1,4 +1,3 @@
-//create About component
 import React from 'react';
 
 const About = () => {

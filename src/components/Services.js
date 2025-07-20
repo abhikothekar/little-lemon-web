@@ -1,4 +1,3 @@
-//create services component
 import React from 'react';
 
 const Services = () => {

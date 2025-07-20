@@ -1,4 +1,3 @@
-//create BookingForm component
 import React, { useState } from 'react';
 
 const BookingForm = (props) => {

@@ -1,7 +1,6 @@
-//create Header compojnent and export
 import React from 'react';
 import { Link } from 'react-router-dom';
-import bannerImg from '../images/restauranfood.jpg'; // Adjust the path as necessary
+import bannerImg from '../images/restauranfood.jpg';
 const Header = () => {
     return (
         <>

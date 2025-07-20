@@ -1,8 +1,7 @@
-//create Menu component 
 import React from 'react';
 import recipes from '../recipes';
 import { Link } from 'react-router-dom';
-import Swal from 'sweetalert2'; // Adjust the path as necessary
+import Swal from 'sweetalert2';
 const Menu = () => {
     const handleOrder = (id) => {
         Swal.fire({

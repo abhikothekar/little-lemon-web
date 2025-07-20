@@ -1,6 +1,5 @@
-//create Footer component
 import React from 'react';
-import logo from '../images/Logo.svg'; // Adjust the path as necessary
+import logo from '../images/Logo.svg';
 const Footer = () => {
     return (
         <footer>

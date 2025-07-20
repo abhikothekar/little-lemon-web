@@ -1,4 +1,3 @@
-//create OrderOnline component
 import React from 'react';
 import { Link } from 'react-router-dom';
 const OrderOnline = () => {

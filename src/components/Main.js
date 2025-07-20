@@ -1,4 +1,3 @@
-//  create  MAin component
 import React, { useReducer } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import ConfirmedBooking from './ConfirmedBooking';

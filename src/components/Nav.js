@@ -1,6 +1,5 @@
-//create react component here
 import React from 'react';
-import logo from '../images/Logo.svg'; // Adjust the path as necessary
+import logo from '../images/Logo.svg';
 const Nav = () => {
     const [menuOpen, setMenuOpen] = React.useState(false);
     const toggleMenu = () => { setMenuOpen(!menuOpen); };
