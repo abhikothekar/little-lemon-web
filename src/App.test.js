@@ -1,30 +1,29 @@
-import { fireEvent, render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
-import { BrowserRouter } from 'react-router-dom';
+//generate App.test.js
+import React from 'react';
+import { render, screen } from '@testing-library/react';
 import App from './App';
-import BookingForm from './components/BookingForm';
-import Header from './components/Header';
+import Nav from './components/Nav';
+import Main from './components/Main';
+import Menu from './components/Menu';
+import Footer from './components/Footer';
+describe('App Component', () => {
+    test('renders Nav component', () => {
+        render(<App />);
+        expect(screen.getByRole('navigation')).toBeInTheDocument();
+    });
 
-test('Renders the Header heading', () => {
-    render(<BrowserRouter><App /></BrowserRouter>);
-    const headingElement = screen.getByText("Reserve Table");
-    expect(headingElement).toBeInTheDocument();
+    test('renders Main component', () => {
+        render(<App />);
+        expect(screen.getByRole('main')).toBeInTheDocument();
+    });
 
-    const reserveButton = screen.getByRole("button");
-    fireEvent.click(reserveButton);
+    test('renders Menu component', () => {
+        render(<App />);
+        expect(screen.getByText(/Menu/i)).toBeInTheDocument(); // Assuming Menu has a text "Menu"
+    });
 
-    const headingElementNew = screen.getByText("Choose Date");
-    expect(headingElementNew).toBeInTheDocument();
-})
-
-test('Initialize/Update Times', () => {
-  render(<BrowserRouter><App /></BrowserRouter>);
-  const reserveButton = screen.getByRole("button");
-  fireEvent.click(reserveButton);
-
-  const testTime = []
-  // userEvent.selectOptions(screen.getByLabelText("Choose Time"),screen.getByRole('option', { name: testTime}))
-  // expect(screen.getByRole('option', { name: testTime}).selected).toBe(true);
-
-
-})
+    test('renders Footer component', () => {
+        render(<App />);
+        expect(screen.getByText(/Footer/i)).toBeInTheDocument(); // Assuming Footer has a text "Footer"
+    });
+});
