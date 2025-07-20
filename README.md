@@ -10,13 +10,13 @@ Please note: the only functionality working on this website besides the design i
 
 ## Screenshots
 Here are some screeenshots of the application showcasing the Booking functionality. <br/>
-<img src="https://github.com/abhikothekar/little-lemon-web/blob/main/Little%20Lemon%20Home%20page%20Nav.png" width="400" />
-<img src="https://github.com/abhikothekar/little-lemon-web/blob/main/Little%20Lemon%20Home%20page%20Special%20Menu.png" width="400" />
-<img src="https://github.com/abhikothekar/little-lemon-web/blob/main/Little%20Lemon%20Home%20page%20Footer.png" width="400" />
-<img src="https://github.com/abhikothekar/little-lemon-web/blob/main/Reservsvation.png" width="400" />
-<img src="https://github.com/abhikothekar/little-lemon-web/blob/main/Error%20handling.png" width="400" />
-<img src="https://github.com/abhikothekar/little-lemon-web/blob/main/Reservation2.png" width="400" />
-<img src="https://github.com/abhikothekar/little-lemon-web/blob/main/Confirmation.png" width="400" />
-<img src="https://github.com/abhikothekar/little-lemon-web/blob/main/About%20Us.png" width="400"/>
-<img src="https://github.com/abhikothekar/little-lemon-web/blob/main/Services.png" width="400"/>
-<img src="https://github.com/abhikothekar/little-lemon-web/blob/main/Order%20Online.png" width="400"/>
+<img src="/public/Images/Little%20Lemon%20Home%20page%20Nav.png" width="400" />
+<img src="/public/Images/Little%20Lemon%20Home%20page%20Special%20Menu.png" width="400" />
+<img src="/public/Images/Little%20Lemon%20Home%20page%20Footer.png" width="400" />
+<img src="/public/Images/Reservsvation.png" width="400" />
+<img src="/public/Images/Error%20handling.png" width="400" />
+<img src="/public/Images/Reservation2.png" width="400" />
+<img src="/public/Images/Confirmation.png" width="400" />
+<img src="/public/Images/About%20Us.png" width="400"/>
+<img src="/public/Images/Services.png" width="400"/>
+<img src="/public/Images/Order%20Online.png" width="400"/>
